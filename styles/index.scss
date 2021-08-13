@@ -1,0 +1,12 @@
+@import "variables";
+@import "mixins";
+@import "header";
+@import "logo";
+@import "burger";
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans";
+  color: $text-color;
+}
