@@ -12,4 +12,15 @@
     background-color: #3141c5;
     color: #fff;
   }
+  & img {
+    margin: 22px auto;
+  }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 33px;
+  }
 }

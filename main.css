@@ -131,6 +131,7 @@
   margin-bottom: 30px;
 }
 .audience__button_learn {
+  color: #2b292d;
   margin-bottom: 40px;
 }
 .audience__cards {
@@ -152,6 +153,17 @@
 .card:hover {
   background-color: #3141c5;
   color: #fff;
+}
+.card img {
+  margin: 22px auto;
+}
+.card__title {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 33px;
 }
 
 * {
