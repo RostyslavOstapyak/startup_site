@@ -85,6 +85,27 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 
+.about {
+  padding: 46px 15px;
+}
+.about__title {
+  color: #2b292d;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+  margin: 0px;
+}
+.about__text {
+  color: #2b292d;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 0px;
+  margin-top: 6px;
+}
+.about__item:last-child {
+  margin-top: 20px;
+}
+
 * {
   box-sizing: border-box;
 }
