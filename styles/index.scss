@@ -9,10 +9,12 @@
 @import "audience";
 @import "cards";
 @import "order";
+@import "footer";
 * {
   box-sizing: border-box;
 }
 body {
+  font-size: $font-base;
   font-family: "Work Sans";
   color: $text-color;
 }

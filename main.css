@@ -213,11 +213,119 @@
   text-decoration: underline;
 }
 
+.footer__topline {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 44px;
+}
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__logo_img {
+  height: 60px;
+  width: 60px;
+}
+.footer__logo_text {
+  text-align: center;
+}
+.footer__logo_subtitle {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  opacity: 0.6;
+  font-weight: 300;
+}
+.footer__downloads {
+  margin: 31px 30px 0px;
+  display: flex;
+  justify-content: center;
+}
+.footer__downloads_item {
+  margin-right: 10px;
+}
+.footer__downloads_item:last-child {
+  margin-right: 0;
+}
+.footer__line {
+  border-top: 1px solid #2b292d;
+  width: 99%;
+  opacity: 0.1;
+  margin: 0;
+  margin-top: 40px;
+}
+.footer__about-links {
+  margin: 0px 15px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.footer__about-links_title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  color: #2b292d;
+  margin: 0px;
+}
+.footer__about-links_item {
+  width: 265px;
+  margin-top: 30px;
+}
+.footer__about-links_link {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  color: #2b292d;
+  opacity: 0.6;
+  margin-top: 18p;
+}
+.footer__about-links_text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+}
+.footer__media-links {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.footer__media-links_documents {
+  line-height: 50px;
+  font-size: 14px;
+}
+.footer__link {
+  text-decoration: none;
+  color: #2b292d;
+  opacity: 0.6;
+  margin-right: 22px;
+}
+.footer__link:last-child {
+  margin-right: 0;
+}
+.footer__media-icons {
+  margin-top: 30px;
+  margin-bottom: 22px;
+}
+.footer__media-icons_item {
+  width: 18px;
+  margin-left: 20px;
+}
+.footer__media-icons_item:first-child {
+  margin-left: 0;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  font-size: 16px;
   font-family: "Work Sans";
   color: #2b292d;
 }
