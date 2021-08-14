@@ -1,8 +1,24 @@
 .order {
   padding: 50px 15px;
-  background-color: #f4f5f7;
+  background-color: $bacg-lignt-color;
+  @include for-large {
+    display: flex;
+    justify-content: center;
+    padding: 73px 0 72px;
+  }
   &__img {
     min-width: 200px;
+    @include for-large {
+      margin-right: 121px;
+    }
+  }
+  &__content {
+    @include for-large {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      max-width: 550px;
+    }
   }
   &__title {
     text-align: center;
@@ -19,25 +35,38 @@
     font-size: 22px;
     line-height: 32px;
   }
+  &__form {
+    @include for-large {
+      display: flex;
+      align-items: center;
+      margin-top: 26px;
+    }
+  }
   &__input {
     margin-top: 40px;
-    background-color: #fff;
-    border: 1px solid #2b292d33;
+    background-color: $color-white;
+    border: 1px solid $border-color;
     border-radius: 2px;
     height: 48px;
     width: 100%;
     text-align: center;
     line-height: 13px;
+    @include for-large {
+      margin-top: 0;
+    }
   }
   &__button {
     margin-top: 12px;
+    @include for-large {
+      margin-top: 0;
+    }
   }
   &__bottom-text {
     margin: 0;
     margin-top: 10px;
     font-size: 14px;
     line-height: 22px;
-    color: #2b292d99;
+    color: $text-color;
     &_link {
       color: $bacg-blue;
       text-decoration: underline;

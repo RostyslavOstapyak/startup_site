@@ -14,8 +14,10 @@
   width: 100%;
   text-align: center;
   color: #fff;
-
   border-radius: 2px;
+  @include for-large {
+    width: 160px;
+  }
   &_more {
     font-size: 18px;
     font-weight: 700;

@@ -5,6 +5,10 @@
   background-color: #fff;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 10%);
   margin-bottom: 15px;
+  @include for-large {
+    width: 262px;
+    margin-left: 30px;
+  }
   &:last-child {
     margin-bottom: 0;
   }

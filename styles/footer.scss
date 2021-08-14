@@ -4,18 +4,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    border-bottom: 1px solid hsla(0, 0%, 89%, 1);
+    padding-bottom: 40px;
     margin-top: 44px;
+    @include for-large {
+      align-items: flex-start;
+    }
   }
   &__logo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    @include for-large {
+      flex-direction: row;
+    }
     &_img {
       height: 60px;
       width: 60px;
+      @include for-large {
+        margin-right: 15px;
+      }
     }
-    &_text {
+    & &_text {
       text-align: center;
     }
     &_subtitle {
@@ -27,10 +37,30 @@
       font-weight: 300;
     }
   }
+  .footer-loto-title {
+    @include for-large {
+      text-align: left;
+    }
+  }
+  &__aditional-text {
+    display: none;
+    @include for-large {
+      display: block;
+      margin-top: 26px;
+      line-height: 26px;
+      font-size: 18px;
+      opacity: 0.6;
+      width: 360px;
+    }
+  }
   &__downloads {
     margin: 31px 30px 0px;
     display: flex;
     justify-content: center;
+    @include for-large {
+      margin: 0px;
+      margin-top: 25px;
+    }
     &_item {
       margin-right: 10px;
       &:last-child {
@@ -38,17 +68,23 @@
       }
     }
   }
-  &__line {
-    border-top: 1px solid #2b292d;
-    width: 99%;
-    opacity: 0.1;
-    margin: 0;
-    margin-top: 40px;
+  &__inner {
+    @include for-large {
+      display: flex;
+      margin: 0 auto;
+      width: 1140px;
+    }
   }
+
   &__about-links {
     margin: 0px 15px 30px;
     display: flex;
     flex-direction: column;
+    @include for-large {
+      flex-direction: row;
+      margin-top: 16px;
+      margin-left: 126px;
+    }
     &_title {
       font-weight: bold;
       font-size: 22px;
@@ -59,6 +95,11 @@
     &_item {
       width: 265px;
       margin-top: 30px;
+      @include for-large {
+        &:last-child {
+          margin-left: 29px;
+        }
+      }
     }
     &_link {
       list-style-type: none;
@@ -81,6 +122,18 @@
     margin-left: 15px;
     display: flex;
     flex-direction: column;
+    @include for-large {
+      border-top: 1px solid hsla(270, 5%, 17%, 0.1);
+      height: 50px;
+      width: 100%;
+    }
+    &_inner {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 1140px;
+      margin: 0 auto;
+    }
     &_documents {
       line-height: 50px;
       font-size: 14px;

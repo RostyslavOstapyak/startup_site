@@ -5,4 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @include for-large {
+    display: none;
+  }
 }
