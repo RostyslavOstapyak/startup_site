@@ -353,6 +353,7 @@
     display: flex;
     align-items: center;
     margin-top: 26px;
+    width: 100%;
   }
 }
 .order__input {
@@ -376,6 +377,7 @@
 @media screen and (min-width: 1400px) {
   .order__button {
     margin-top: 0;
+    margin-left: 10px;
   }
 }
 .order__bottom-text {
