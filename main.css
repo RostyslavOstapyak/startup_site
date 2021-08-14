@@ -9,6 +9,7 @@
     background-color: #f3c6bd;
     height: 62px;
     align-items: center;
+    max-width: 1140px;
   }
 }
 .header__wrapper {
@@ -542,12 +543,14 @@
     width: 100%;
   }
 }
-.footer__media-links_inner {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1140px;
-  margin: 0 auto;
+@media screen and (min-width: 1400px) {
+  .footer__media-links_inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1140px;
+    margin: 0 auto;
+  }
 }
 .footer__media-links_documents {
   line-height: 50px;

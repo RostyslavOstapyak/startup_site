@@ -128,11 +128,13 @@
       width: 100%;
     }
     &_inner {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 1140px;
-      margin: 0 auto;
+      @include for-large {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1140px;
+        margin: 0 auto;
+      }
     }
     &_documents {
       line-height: 50px;
