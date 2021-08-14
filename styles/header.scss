@@ -16,4 +16,10 @@
       padding-bottom: 0;
     }
   }
+  &__button {
+    display: none;
+    @include for-large {
+      display: block;
+    }
+  }
 }
