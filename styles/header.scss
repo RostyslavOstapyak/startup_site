@@ -13,6 +13,10 @@
   &__wrapper {
     background-color: $bacg-pink;
     @include for-large {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       padding: 39px;
       padding-bottom: 0;
     }
