@@ -1,7 +1,16 @@
 .about {
-  padding: 46px 15px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  &__wrapper {
+    padding: 46px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    @include for-large {
+      max-width: 1400px;
+      padding: 77px 130px 76px 130px;
+      justify-content: space-between;
+    }
+  }
   &__title {
     color: $text-color;
     font-size: 22px;
@@ -28,9 +37,5 @@
         margin: 0px;
       }
     }
-  }
-  @include for-large {
-    padding: 77px 130px 76px 130px;
-    justify-content: space-between;
   }
 }

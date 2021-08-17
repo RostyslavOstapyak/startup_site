@@ -1,13 +1,20 @@
 .order {
-  padding: 50px 15px;
   background-color: $bacg-lignt-color;
-  @include for-large {
+
+  &__wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding: 73px 0 72px;
+    padding: 50px 15px;
+    background-color: $bacg-lignt-color;
+    @include for-large {
+      padding: 73px 0 72px;
+      max-width: 1400px;
+    }
   }
   &__img {
     min-width: 200px;
+    max-width: 400px;
     @include for-large {
       margin-right: 121px;
     }
