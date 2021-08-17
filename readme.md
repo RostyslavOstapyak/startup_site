@@ -14,3 +14,5 @@ Used technologies
 - Mobile first
 
 page awailable via [link](https://rostyslavostapyak.github.io/startup_site/)
+
+Developed by [Rostyslav Osapyak](https://github.com/RostyslavOstapyak)
